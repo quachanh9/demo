@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.responsive-container{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 80%;
+}
+.img-left,
+.img-right{
+    width: 25%;
+    overflow: hidden;
+    margin: 20px;
+    display: block;
+}
+.img-center{
+    width: 50%;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.img-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-left h1,
+.img-center h1,
+.img-right h1{
+    font-size: 17px;
+}
+.img-left img{
+    width: 80%;
+    margin-bottom: 15px;
+}
+hr{
+    margin: 20px 0px 20px 0px;
+}
+img{
+    object-fit: cover;
+}
+.img-center img{
+    width: 100%;
+}
+.img-right img{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+.img-right{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    object-fit: cover;
+    transition: 0.25s;
+}
+img:hover{
+    transform: scale(1.03);
+}
+.contact{
+    font-size: 10px;
+}
+.background{
+    display: flex;
+    border-bottom: 3px solid red;
+    justify-content: center;
+
+}
+.wrapper{
+    display: flex ;
+    justify-content: space-between;
+    width: 80%;
+}
+.header__icon{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.header-content{
+    width: 35%;
+}
+.header-logo img, .header__icon img{
+    transform: unset;
+}
